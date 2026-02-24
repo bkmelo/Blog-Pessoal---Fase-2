@@ -93,7 +93,7 @@ function login(e: FormEvent<HTMLFormElement>) {
           </p>
         </form>
         <div
-          className="bg-[url('https://i.imgur.com/ZZFAMzo.jpg')] lg:block hidden bg-no-repeat 
+          className="bg-[url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/YKbElbDKpXu03wKL/81518992-woo-storyart-na-zxx-01.jpeg-A3QO9ZaOn4CxK9v4.webp')] lg:block hidden bg-no-repeat 
                         w-full min-h-screen bg-cover bg-center"
         ></div>
       </div>
