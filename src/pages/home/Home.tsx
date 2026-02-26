@@ -32,11 +32,8 @@ function Home() {
  <ListaPostagens />
 
 </>
-
           )
-
         }
-
         export default Home
 
 
