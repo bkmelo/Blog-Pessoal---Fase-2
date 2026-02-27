@@ -30,7 +30,7 @@ function ListaTemas() {
   useEffect(() => {
     buscarTemas()
   }, [temas.length])
-g
+  
   async function buscarTemas() {
       try{
 
