@@ -29,8 +29,8 @@ function ListaTemas() {
 
   useEffect(() => {
     buscarTemas()
-  }, [temas.lenght])
-
+  }, [temas.length])
+g
   async function buscarTemas() {
       try{
 
