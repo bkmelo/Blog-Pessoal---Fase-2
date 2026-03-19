@@ -68,7 +68,7 @@ async function cadastrarNovoUsuario(e: FormEvent<HTMLFormElement>) {
         <>
             <div className="grid grid-cols-1 lg:grid-cols-2 h-screen 
                             place-items-center font-bold">
-                <div className="bg-[url('https://i.imgur.com/ZZFAMzo.jpg')] lg:block hidden bg-no-repeat 
+                <div className="bg-[url('https://ik.imagekit.io/ms3dptda1/9471178_4190677.jpg')] lg:block hidden bg-no-repeat 
                                 w-full min-h-screen bg-cover bg-center">
                 </div>
                 <form className='flex justify-center items-center flex-col w-2/3 gap-3'
@@ -92,7 +92,7 @@ async function cadastrarNovoUsuario(e: FormEvent<HTMLFormElement>) {
                             type="text"
                             id="usuario"
                             name="usuario"
-                            placeholder="Usuario"
+                            placeholder="E-mail"
                             className="border-2 border-slate-700 rounded p-2"
                             value= {usuario.usuario}
                             onChange={(e:ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
@@ -116,7 +116,7 @@ async function cadastrarNovoUsuario(e: FormEvent<HTMLFormElement>) {
                             type="password"
                             id="senha"
                             name="senha"
-                            placeholder="Senha"
+                            placeholder="Digite 8 caracteres"
                             className="border-2 border-slate-700 rounded p-2"
                             value={usuario.senha}
                             onChange={(e:ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
